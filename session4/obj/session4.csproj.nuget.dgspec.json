@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/tony/Projects/cybersoft/csharp/CSharp_Demo/ConsoleApp1/session4/session4.csproj": {}
+    "/Users/tony/Projects/cybersoft/csharp/session4/session4.csproj": {}
   },
   "projects": {
-    "/Users/tony/Projects/cybersoft/csharp/CSharp_Demo/ConsoleApp1/session4/session4.csproj": {
+    "/Users/tony/Projects/cybersoft/csharp/session4/session4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/tony/Projects/cybersoft/csharp/CSharp_Demo/ConsoleApp1/session4/session4.csproj",
+        "projectUniqueName": "/Users/tony/Projects/cybersoft/csharp/session4/session4.csproj",
         "projectName": "session4",
-        "projectPath": "/Users/tony/Projects/cybersoft/csharp/CSharp_Demo/ConsoleApp1/session4/session4.csproj",
+        "projectPath": "/Users/tony/Projects/cybersoft/csharp/session4/session4.csproj",
         "packagesPath": "/Users/tony/.nuget/packages/",
-        "outputPath": "/Users/tony/Projects/cybersoft/csharp/CSharp_Demo/ConsoleApp1/session4/obj/",
+        "outputPath": "/Users/tony/Projects/cybersoft/csharp/session4/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/tony/.nuget/NuGet/NuGet.Config"

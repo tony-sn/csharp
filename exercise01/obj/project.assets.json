@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/tony/Projects/cybersoft/csharp/CSharp_Demo/ConsoleApp1/exercise01/exercise01.csproj",
+      "projectUniqueName": "/Users/tony/Projects/cybersoft/csharp/exercise01/exercise01.csproj",
       "projectName": "exercise01",
-      "projectPath": "/Users/tony/Projects/cybersoft/csharp/CSharp_Demo/ConsoleApp1/exercise01/exercise01.csproj",
+      "projectPath": "/Users/tony/Projects/cybersoft/csharp/exercise01/exercise01.csproj",
       "packagesPath": "/Users/tony/.nuget/packages/",
-      "outputPath": "/Users/tony/Projects/cybersoft/csharp/CSharp_Demo/ConsoleApp1/exercise01/obj/",
+      "outputPath": "/Users/tony/Projects/cybersoft/csharp/exercise01/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/tony/.nuget/NuGet/NuGet.Config"
