@@ -1,0 +1,15 @@
+/Users/tony/Projects/cybersoft/csharp/session5/bin/Debug/net8.0/session5
+/Users/tony/Projects/cybersoft/csharp/session5/bin/Debug/net8.0/session5.deps.json
+/Users/tony/Projects/cybersoft/csharp/session5/bin/Debug/net8.0/session5.runtimeconfig.json
+/Users/tony/Projects/cybersoft/csharp/session5/bin/Debug/net8.0/session5.dll
+/Users/tony/Projects/cybersoft/csharp/session5/bin/Debug/net8.0/session5.pdb
+/Users/tony/Projects/cybersoft/csharp/session5/obj/Debug/net8.0/session5.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tony/Projects/cybersoft/csharp/session5/obj/Debug/net8.0/session5.AssemblyInfoInputs.cache
+/Users/tony/Projects/cybersoft/csharp/session5/obj/Debug/net8.0/session5.AssemblyInfo.cs
+/Users/tony/Projects/cybersoft/csharp/session5/obj/Debug/net8.0/session5.csproj.CoreCompileInputs.cache
+/Users/tony/Projects/cybersoft/csharp/session5/obj/Debug/net8.0/session5.sourcelink.json
+/Users/tony/Projects/cybersoft/csharp/session5/obj/Debug/net8.0/session5.dll
+/Users/tony/Projects/cybersoft/csharp/session5/obj/Debug/net8.0/refint/session5.dll
+/Users/tony/Projects/cybersoft/csharp/session5/obj/Debug/net8.0/session5.pdb
+/Users/tony/Projects/cybersoft/csharp/session5/obj/Debug/net8.0/session5.genruntimeconfig.cache
+/Users/tony/Projects/cybersoft/csharp/session5/obj/Debug/net8.0/ref/session5.dll
