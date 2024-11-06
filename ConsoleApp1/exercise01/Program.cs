@@ -187,3 +187,102 @@ double averageSpeed = distance / timeTravelled;
 Console.WriteLine("The average speed is {averageSpeed:F2} km/h.");
 
 #endregion
+
+#region exercise8
+// INPUT
+// a number input
+// input sum
+
+// OUTPUT
+// percentage of number / sum
+
+// PROCESS
+// format input number
+// calculate percentage of number / sum
+
+Console.WriteLine("Please enter a number to calculate: ");
+if (!int.TryParse(Console.ReadLine(), out int numberExercise8))
+{
+    Console.WriteLine("Invalid input. Please enter a valid number for this exercise 8.");
+    return;
+}
+
+Console.WriteLine("Please enter sum to calculate: ");
+if (!int.TryParse(Console.ReadLine(), out int sumExercise8))
+{
+    Console.WriteLine("Invalid input. Please enter a valid sum for this exercise 8.");
+}
+
+double sumPercentage = (sumExercise8 / numberExercise8) * 100;
+Console.WriteLine($"The sum percentage is {sumPercentage:F2} %.");
+#endregion
+
+#region exercise9
+// INPUT
+// speed in km/h
+
+// OUTPUT
+// speed in m/s
+
+// PROCESS
+// format input speed
+// rate: speed m/s = speed km/h /3.6
+Console.WriteLine("Please enter speed (km/h): ");
+if (!double.TryParse(Console.ReadLine(), out double speed))
+{
+    Console.WriteLine("Invalid input. Please enter a valid speed in km/h.");
+    return;
+}
+
+double kmToMetreRate = 3.6;
+double speedMtoSeconds = speed * kmToMetreRate;
+
+Console.WriteLine($"The speed (km/h) to m/s: {speedMtoSeconds:F2} m/s");
+#endregion
+
+#region exercise10
+// INPUT
+// number of minutes that user has used for exercise
+// exercise type: running, cycling, swimming
+
+// OUTPUT
+// calories per minute for each exercise type
+
+// PROCESS
+// switch case calories per minute for each exercise type
+
+Console.WriteLine("Enter the number of minutes that you want to exercise");
+if (!int.TryParse(Console.ReadLine(), out int minutesExercise10) || minutesExercise10 < 0)
+{
+    Console.WriteLine("Invalid input. Please enter a valid number of minutes that is greater than 0. ");
+    return;
+}
+
+Console.Write("Enter exercise type (running / cycling / swimming): ");
+string? exerciseType = Console.ReadLine()?.ToLower();
+
+double caloriesPerMinute;
+
+switch (exerciseType)
+{
+    case "running":
+        caloriesPerMinute = 10.0;
+        break;
+        
+    case "cycling":
+        caloriesPerMinute = 8.0;
+        break;
+    
+    case "swimming":
+        caloriesPerMinute = 6.0;
+        break;
+    
+    default:
+        Console.WriteLine("Invalid exercise type. Please enter either 'running', 'cycling' or 'swimming'. ");
+        return;
+}
+
+double totalCaloriesBurned = caloriesPerMinute * minutes;
+Console.WriteLine($"Calories burned per minute for {exerciseType}: {caloriesPerMinute:F2} cal/min");
+Console.WriteLine($"Total calories when you are {exerciseType} burned: {totalCaloriesBurned:F2} cal");
+#endregion
