@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "VcFZKhIQ2Xs=",
+  "success": true,
+  "projectFilePath": "/Users/tony/Projects/cybersoft/csharp/ConsoleApp1/session11_oop_inheritance/session11_oop_inheritance.csproj",
+  "expectedPackageFiles": [
+    "/Users/tony/.nuget/packages/jsonconverter.abstractions/0.7.1/jsonconverter.abstractions.0.7.1.nupkg.sha512",
+    "/Users/tony/.nuget/packages/jsonconverter.newtonsoft.json/0.7.1/jsonconverter.newtonsoft.json.0.7.1.nupkg.sha512",
+    "/Users/tony/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
+    "/Users/tony/.nuget/packages/stef.validation/0.1.1/stef.validation.0.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

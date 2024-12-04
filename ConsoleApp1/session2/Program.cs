@@ -52,3 +52,12 @@ double bmi = 0.0;
 bmi = formatW / (formatH * formatH);
 Console.WriteLine($"BMI = {bmi}");
 #endregion
+
+#region calculate circle dimension
+Console.WriteLine("Please enter circle\' radius");
+string radius = Console.ReadLine();
+
+
+
+
+#endregion

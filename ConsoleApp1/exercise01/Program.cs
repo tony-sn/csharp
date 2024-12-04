@@ -22,7 +22,7 @@ string dayLabel = days == 1 ? "day" : "days";
 Console.WriteLine($"Number of {weekLabel}: {weeks}. Number of {dayLabel}: {days}");
 #endregion
 
-#region exercise2
+#region exercise02
 // find total price after discount
 // INPUT
 // price and discount

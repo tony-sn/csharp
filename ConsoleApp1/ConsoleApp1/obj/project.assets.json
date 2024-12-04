@@ -19,6 +19,7 @@
       "packagesPath": "/Users/tony/.nuget/packages/",
       "outputPath": "/Users/tony/Projects/cybersoft/csharp/ConsoleApp1/ConsoleApp1/obj/",
       "projectStyle": "PackageReference",
+      "UsingMicrosoftNETSdk": false,
       "configFilePaths": [
         "/Users/tony/.nuget/NuGet/NuGet.Config"
       ],
@@ -65,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

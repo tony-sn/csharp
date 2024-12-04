@@ -1,0 +1,15 @@
+/Users/tony/Projects/cybersoft/csharp/ConsoleApp1/exercise02/bin/Debug/net8.0/exercise02
+/Users/tony/Projects/cybersoft/csharp/ConsoleApp1/exercise02/bin/Debug/net8.0/exercise02.deps.json
+/Users/tony/Projects/cybersoft/csharp/ConsoleApp1/exercise02/bin/Debug/net8.0/exercise02.runtimeconfig.json
+/Users/tony/Projects/cybersoft/csharp/ConsoleApp1/exercise02/bin/Debug/net8.0/exercise02.dll
+/Users/tony/Projects/cybersoft/csharp/ConsoleApp1/exercise02/bin/Debug/net8.0/exercise02.pdb
+/Users/tony/Projects/cybersoft/csharp/ConsoleApp1/exercise02/obj/Debug/net8.0/exercise02.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tony/Projects/cybersoft/csharp/ConsoleApp1/exercise02/obj/Debug/net8.0/exercise02.AssemblyInfoInputs.cache
+/Users/tony/Projects/cybersoft/csharp/ConsoleApp1/exercise02/obj/Debug/net8.0/exercise02.AssemblyInfo.cs
+/Users/tony/Projects/cybersoft/csharp/ConsoleApp1/exercise02/obj/Debug/net8.0/exercise02.csproj.CoreCompileInputs.cache
+/Users/tony/Projects/cybersoft/csharp/ConsoleApp1/exercise02/obj/Debug/net8.0/exercise02.sourcelink.json
+/Users/tony/Projects/cybersoft/csharp/ConsoleApp1/exercise02/obj/Debug/net8.0/exercise02.dll
+/Users/tony/Projects/cybersoft/csharp/ConsoleApp1/exercise02/obj/Debug/net8.0/refint/exercise02.dll
+/Users/tony/Projects/cybersoft/csharp/ConsoleApp1/exercise02/obj/Debug/net8.0/exercise02.pdb
+/Users/tony/Projects/cybersoft/csharp/ConsoleApp1/exercise02/obj/Debug/net8.0/exercise02.genruntimeconfig.cache
+/Users/tony/Projects/cybersoft/csharp/ConsoleApp1/exercise02/obj/Debug/net8.0/ref/exercise02.dll

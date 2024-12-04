@@ -1,0 +1,15 @@
+/Users/tony/Projects/cybersoft/csharp/ConsoleApp1/session_optional/bin/Debug/net8.0/session_optional
+/Users/tony/Projects/cybersoft/csharp/ConsoleApp1/session_optional/bin/Debug/net8.0/session_optional.deps.json
+/Users/tony/Projects/cybersoft/csharp/ConsoleApp1/session_optional/bin/Debug/net8.0/session_optional.runtimeconfig.json
+/Users/tony/Projects/cybersoft/csharp/ConsoleApp1/session_optional/bin/Debug/net8.0/session_optional.dll
+/Users/tony/Projects/cybersoft/csharp/ConsoleApp1/session_optional/bin/Debug/net8.0/session_optional.pdb
+/Users/tony/Projects/cybersoft/csharp/ConsoleApp1/session_optional/obj/Debug/net8.0/session_optional.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tony/Projects/cybersoft/csharp/ConsoleApp1/session_optional/obj/Debug/net8.0/session_optional.AssemblyInfoInputs.cache
+/Users/tony/Projects/cybersoft/csharp/ConsoleApp1/session_optional/obj/Debug/net8.0/session_optional.AssemblyInfo.cs
+/Users/tony/Projects/cybersoft/csharp/ConsoleApp1/session_optional/obj/Debug/net8.0/session_optional.csproj.CoreCompileInputs.cache
+/Users/tony/Projects/cybersoft/csharp/ConsoleApp1/session_optional/obj/Debug/net8.0/session_optional.sourcelink.json
+/Users/tony/Projects/cybersoft/csharp/ConsoleApp1/session_optional/obj/Debug/net8.0/session_optional.dll
+/Users/tony/Projects/cybersoft/csharp/ConsoleApp1/session_optional/obj/Debug/net8.0/refint/session_optional.dll
+/Users/tony/Projects/cybersoft/csharp/ConsoleApp1/session_optional/obj/Debug/net8.0/session_optional.pdb
+/Users/tony/Projects/cybersoft/csharp/ConsoleApp1/session_optional/obj/Debug/net8.0/session_optional.genruntimeconfig.cache
+/Users/tony/Projects/cybersoft/csharp/ConsoleApp1/session_optional/obj/Debug/net8.0/ref/session_optional.dll
