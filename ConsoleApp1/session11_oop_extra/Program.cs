@@ -1,11 +1,13 @@
 ﻿namespace session11_oop_extra;
 
-class Program
+internal class Program
 {
-    static void Main(string[] args)
+    private static void Main(string[] args)
     {
         Console.WriteLine("Hello, World!");
+
         #region Bài 2: Quản lý thư viện
+
         // 1. Tạo class Book để quản lý sách
         // - bookId: mã sách
         // - bookName: tên sách
@@ -30,6 +32,7 @@ class Program
         // - Hiển thị danh sách sách trong thư viện
         // - Tìm sách theo mã sách
         // - Thoát
+
         #endregion
     }
 }

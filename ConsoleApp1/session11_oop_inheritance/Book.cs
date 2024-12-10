@@ -1,8 +1,8 @@
-class Book
+internal class Book
 {
+    public string author;
     public string bookId;
     public string bookName;
-    public string author;
     public double price;
 
     // 1. Create class Book to manage book

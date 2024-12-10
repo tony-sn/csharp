@@ -4,57 +4,51 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        int result = countSum(10, 11);
+        var result = countSum(10, 11);
         Console.WriteLine($"sum of 10 and 11 is {result}");
-        
+
         Console.WriteLine("Please enter a number >= 2: ");
-        int number = Convert.ToInt32(Console.ReadLine());
-        for (int i = 2; i <= number; i++)
-        {
+        var number = Convert.ToInt32(Console.ReadLine());
+        for (var i = 2; i <= number; i++)
             if (IsPrime(i))
-            {
                 Console.Write(i + " ");
-            }
-        }
-        
+
         Console.WriteLine("Mời bạn nhập một số: ");
-        int number3 = Convert.ToInt32(Console.ReadLine());
-        int originalNumber = number3;
-        int reverseNumber = getReverseNumber(number3); 
-            
+        var number3 = Convert.ToInt32(Console.ReadLine());
+        var originalNumber = number3;
+        var reverseNumber = getReverseNumber(number3);
+
         if (reverseNumber == originalNumber)
-        {
             Console.WriteLine($"Số {originalNumber} là số đối xứng");
-        } else {
+        else
             Console.WriteLine($"Số {originalNumber} không là số đối xứng");
-        }
     }
 
     private static int getReverseNumber(int number)
     {
-        int reverseNumber = 0;
-        while(number > 0){
-            int lastDigit = number % 10;
+        var reverseNumber = 0;
+        while (number > 0)
+        {
+            var lastDigit = number % 10;
             reverseNumber = reverseNumber * 10 + lastDigit;
             number = number / 10;
         }
 
         return reverseNumber;
-
     }
+
     private static bool IsPrime(int number)
     {
         if (number < 2) return false;
-        for (int i = 2; i <= Math.Sqrt(number); i++)
-        {
-            if (number % i == 0) return false;
-        }
+        for (var i = 2; i <= Math.Sqrt(number); i++)
+            if (number % i == 0)
+                return false;
         return true;
-    } 
+    }
 
     private static int countSum(int a, int b)
     {
-       return a + b;
+        return a + b;
     }
 }
 

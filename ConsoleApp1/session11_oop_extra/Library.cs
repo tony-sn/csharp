@@ -1,18 +1,15 @@
-using System.IO;
-using Newtonsoft.Json;
-
-class Library
+internal class Library
 {
-    public string LibraryId { get; set; }
-    public string LibraryName { get; set; }
-    public List<Book> Books { get; set; } = new List<Book>();
-
     // Constructor
     public Library(string libraryId, string libraryName)
     {
         LibraryId = libraryId;
         LibraryName = libraryName;
     }
+
+    public string LibraryId { get; set; }
+    public string LibraryName { get; set; }
+    public List<Book> Books { get; set; } = new();
 
     // Add a book to the library
     public void AddBook(Book book)
@@ -25,10 +22,7 @@ class Library
     public void DisplayBooks()
     {
         Console.WriteLine($"\n--- Books in Library: {LibraryName} ---");
-        foreach (var book in Books)
-        {
-            book.DisplayInfo();
-        }
+        foreach (var book in Books) book.DisplayInfo();
     }
 
     // Find a book by ID
@@ -36,13 +30,9 @@ class Library
     {
         var book = Books.Find(b => b.BookId == bookId);
         if (book != null)
-        {
             book.DisplayInfo();
-        }
         else
-        {
             Console.WriteLine($"Book with ID {bookId} not found in the library {LibraryName}.");
-        }
     }
 
     // Save book list to a JSON file

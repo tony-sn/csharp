@@ -1,12 +1,5 @@
-class Book
+internal class Book
 {
-    public string BookId { get; set; }
-    public string BookName { get; set; }
-    public string Author { get; set; }
-    public double Price { get; set; }
-    public string Topic { get; set; } // Added topic property
-    public string Publisher { get; set; } // Added publisher property
-
     // Constructor
     public Book(string bookId, string bookName, string author, double price, string topic, string publisher)
     {
@@ -18,8 +11,16 @@ class Book
         Publisher = publisher;
     }
 
+    public string BookId { get; set; }
+    public string BookName { get; set; }
+    public string Author { get; set; }
+    public double Price { get; set; }
+    public string Topic { get; set; } // Added topic property
+    public string Publisher { get; set; } // Added publisher property
+
     public virtual void DisplayInfo()
     {
-        Console.WriteLine($"Book ID: {BookId}, Name: {BookName}, Author: {Author}, Price: {Price}, Topic: {Topic}, Publisher: {Publisher}");
+        Console.WriteLine(
+            $"Book ID: {BookId}, Name: {BookName}, Author: {Author}, Price: {Price}, Topic: {Topic}, Publisher: {Publisher}");
     }
 }

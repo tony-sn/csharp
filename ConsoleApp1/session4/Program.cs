@@ -11,6 +11,7 @@
 // S3: change loop condition
 
 #region
+
 // Console.WriteLine("Please enter a number:");
 // string? number = Console.ReadLine();
 // int formatNumber = Convert.ToInt32(number);
@@ -48,11 +49,12 @@
 // }
 // Console.WriteLine($"Factorial of number {num} is {factorial}");
 
-int number = Convert.ToInt32(Console.ReadLine());
-int count = 1;
+var number = Convert.ToInt32(Console.ReadLine());
+var count = 1;
 while (count <= 10)
 {
-    Console.WriteLine($"{count} x {number} = {count*number}");
+    Console.WriteLine($"{count} x {number} = {count * number}");
     count++;
 }
+
 #endregion

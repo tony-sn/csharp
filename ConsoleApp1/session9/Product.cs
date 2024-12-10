@@ -5,7 +5,7 @@ public class Product
     public double price;
     public int quantity;
 
-    public void importInfo()
+    public void readInfo()
     {
         Console.WriteLine("Enter product id: ");
         id = Console.ReadLine();
@@ -17,9 +17,11 @@ public class Product
         quantity = Convert.ToInt32(Console.ReadLine());
     }
 
-    public void printInfo()
+    public void displayInfo()
     {
-        Console.WriteLine($"");
-        
+        Console.WriteLine($"Product ID: {id}");
+        Console.WriteLine($"Product Name: {productName}");
+        Console.WriteLine($"Product Price: {price}");
+        Console.WriteLine($"Product Quantity: {quantity}");
     }
 }
